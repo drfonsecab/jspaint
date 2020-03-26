@@ -76,7 +76,7 @@
     "start-server-and-test": "1.10.6"
   },
   "scripts": {
-    "start": "electron-forge start",
+    "start": "live-server --ignorePattern=\"(node_modules|cypress|out)[/\\\\\\\\]|package\\.json|cypress\\.json\"",
     "debug-start": "electron-forge start --inspect-electron",
     "package": "electron-forge package",
     "make": "electron-forge make",
